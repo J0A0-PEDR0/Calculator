@@ -9,7 +9,7 @@ public static double igual;
 public static void main(String[] args) {
     
    Calculator calculator = new Calculator();
-   //Scanner number = new Scanner(System.in); 
+  
    Scanner sc = new Scanner(System.in);  
        
        System.out.println("----------------------------------------------");
@@ -33,8 +33,10 @@ public static void main(String[] args) {
        System.out.println("13 = Volume to Tronco do Cone ");
        System.out.println("14 = Volume do Cone ");
        System.out.println("----------------------------------------------");
+    //Scanner para o case identificar o Método a ser usado
        System.out.println("Oque voce gostaria de calcular?");
         int resp = sc.nextInt();
+    //Instaciamento do Método através do case
        switch(resp){
         case 1:
        calculator.alturaTriangulo(lt, resp, resp, lt, resp);
