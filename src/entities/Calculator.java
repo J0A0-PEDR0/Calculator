@@ -5,6 +5,7 @@ public class Calculator {
   public static double L, R , r, D,  H , A, E, lt , igual , V , B;
   public static double raiz = Math.sqrt(3.0);
   public static Scanner number = new Scanner(System.in); 
+  // Métodos e argumento para o cálculo
 public  double alturaTriangulo(double lt, double Raiz3, double a3,double igual,double PI){
      System.out.print("qual é o Lado (l):  ");
        lt = number.nextDouble(); 
