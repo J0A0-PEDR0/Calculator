@@ -9,8 +9,7 @@ public static double igual;
 public static void main(String[] args) {
     
    Calculator calculator = new Calculator();
-  
-   Scanner sc = new Scanner(System.in);  
+S   Scanner sc = new Scanner(System.in);  
        
        System.out.println("----------------------------------------------");
        System.out.println("1 = Altura do triangulo equilátero");
